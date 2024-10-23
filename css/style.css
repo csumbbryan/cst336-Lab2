@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url(../img/light_blue_textured.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  font-family: "Verdana", sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(100,100,100,0.65);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#makeGuess {
+  background-color: rgba(100,100,100,0.65);
+  padding: 10px;
+  width: 80%;
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+#feedback {
+  background-color: rgba(100,100,100,0.65);
+  color: grey;
+  margin: 10px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#prevGuesses {
+  background-color: rgba(100,100,100,0.65);
+  padding: 10px;
+  width: 80%;
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+#guessBtn {
+  font-size: 1.5em;
+  border-radius: 8px;
+  color: white;
+  background-color: #008cba;
+  border: solid white;
+}
+
+#guessBtn:hover {
+  font-size: 1.6em;
+  transition: .7s;
+}
+
+#guessBtn:active {
+  font-size: 1.3em;
+  background-color: #006080;
+  transition: .2s;
+}
+
+#resetBtn {
+  font-size: 1.5em;
+  border-radius: 8px;
+  color: white;
+  background-color: #008cba;
+  border: solid white;
+}
+
+#resetBtn:hover {
+  font-size: 1.6em;
+  transition: .7s;
+}
+
+#resetBtn:active {
+  font-size: 1.3em;
+  background-color: #006080;
+  transition: .2s;
+}
+
+#playerGuess {
+  padding: 10px 5px;
+  border: 2px solid #008cba;
+}
+
+#winsandlosses {
+  display: flex;
+  background-color: rgba(100,100,100,0.65);
+  padding: 10px;
+  width: 70%;
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+#totalWins {
+  padding-left: 10px;
+}
+
+#wins {
+  color: green;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+#totalLosses {
+  padding-right: 10px;
+}
+
+#losses {
+  color: red;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  color: lightblue;
+}
